@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-PW2 Timelapse Exporter — GUI (guided flow)
-MP4 defaults to 24 fps, GIF defaults to 12 fps. No FPS control in UI.
-
-Deps:
-  pip install zstandard pillow imageio numpy
-  # for MP4:
-  pip install imageio-ffmpeg
-"""
-
 import io, os, sys, json, time, struct, threading, queue, subprocess
 from pathlib import Path
 from typing import List, Tuple, Optional, Callable
@@ -253,7 +242,7 @@ def list_levels(savedata_dir: Path) -> List[Tuple[str, Path]]:
     return out
 
 def default_video_root() -> Path:
-    # Nice default: ~/Videos/PowerWash Timelapses or ~/PW2 Timelapses
+    # ~/Videos/PowerWash Timelapses or ~/PW2 Timelapses
     v = Path.home() / "Videos" / "PowerWash Timelapses"
     if (Path.home() / "Videos").exists(): return v
     return Path.home() / "PW2 Timelapses"
