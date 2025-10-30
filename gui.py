@@ -43,7 +43,21 @@ LEVEL_NAME_MAP: Dict[str, Tuple[int, str]] = {
     "0t1carcaravan": (22, "Car & Trailer"),
     "0t1theater": (23, "Theater"),
     "0t1motel": (24, "Motel"),
-    "0j1crocride": (25, "Mini Roller Coaster"),
+    "0t1crocride": (25, "Mini Roller Coaster"),
+    "0t1solarsystem": (26, "Solar System Exhibit"),
+    "0t1tram": (27, "Streetcar"),
+    "0t1salvagehouse": (28, "Salvage House"),
+    "0t1dumptruck": (29, "Mining Dump Truck"),
+    "0t1funhouse": (30, "Fun House"),
+    "0t1skiresort": (31, "Ski Center"),
+    "0t1limo": (32, "Extra Long Limo"),
+    "0t1shoppingmall": (33, "Shopping Mall"),
+    "0t1futuristicbi": (34, "Futuristic Bike"),
+    "0t1pantoset": (35, "Theater Sets"),
+    "0t1lorry": (36, "18 Wheeler"),
+    "0t1townfloats": (37, "Town Floats"),
+    "0t1crystalcave": (38, "Mount Rushless"),
+    
     #... to be continued
 }
 
